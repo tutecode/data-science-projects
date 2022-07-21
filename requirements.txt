@@ -1,0 +1,8 @@
+streamlit
+yfinance
+sklearn
+pandas
+lxml
+matplotlib
+seaborn
+shap
