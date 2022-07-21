@@ -63,3 +63,8 @@ for k, v in data.items():
     sns.boxplot(y=k, data=data, ax=axs[index])
     index += 1
 plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=5.0)
+
+
+# HeatMap
+plt.figure(figsize=(20, 10))
+sns.heatmap(data.corr().abs(),  annot=True)
